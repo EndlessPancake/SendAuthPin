@@ -1,0 +1,15 @@
+{
+  "name": "Send Auth Pin",
+  "version": "1.0.0",
+  "description": "PinCode Send from Google Home",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "coffee.err@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "generate-pincode": "^4.0.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
