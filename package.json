@@ -1,5 +1,5 @@
 {
-  "name": "Send Auth Pin",
+  "name": "SendAuthPin",
   "version": "1.0.0",
   "description": "PinCode Send from Google Home",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "coffee.err@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/datastore": "^1.1.0",
     "generate-pincode": "^4.0.1",
     "xmlhttprequest": "^1.8.0"
   }
