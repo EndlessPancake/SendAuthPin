@@ -27,7 +27,7 @@ const taskKey = datastore.key([kind, name]);
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var xhr = new XMLHttpRequest();
 var eventname = "GoogleHomePincode"
-var apikey = "hlyGnhwalTMHt5K7LWSNmCnB4lgpKDGke5p3TAO_OtB"
+var apikey = "<API KEY>"
 var url = 'https://maker.ifttt.com/trigger/'+ eventname +'/with/key/'+ apikey
 // var url = 'http://localhost:8000/'
 
